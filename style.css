@@ -1,0 +1,361 @@
+.container {
+    width: 768px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+html,
+body {
+    height: 100vh;
+    max-width: 1920px;
+    min-width: 720px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.von {
+    background-image: url(img/QualityBuilder-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.authorization {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+
+}
+
+.name {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 8px;
+}
+
+.pass {
+    margin-top: 10px;
+    border-radius: 10px;
+
+    padding: 10px 8px;
+}
+
+
+
+.vhod {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Menu {
+
+    padding: 24px;
+    background-color: #FFA500;
+    display: flex;
+
+}
+
+.Company {
+    padding: 20px;
+    font-size: 30px;
+    color: #FFE4E1;
+}
+
+.glav {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    background-color: #FF8C00;
+    transition: 0.5s;
+}
+
+
+
+.fons {
+    background-color: #7FFFD4;
+}
+
+.onas {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.glavn {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.usl {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.foto {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu {
+    background-color: #FFD700;
+}
+
+.onas:hover {
+    background-color: #FF8C00;
+
+}
+
+.usl:hover {
+    background-color: #FF8C00;
+
+}
+
+.foto:hover {
+    background-color: #FF8C00;
+
+}
+
+.log {
+    height: 140px;
+    width: 180px;
+    margin: auto;
+}
+
+.login {
+    height: 100px;
+}
+
+footer {
+    color: ;
+    top: 97.5%;
+    position: absolute
+}
+
+.nachalo {
+    border-radius: 10px;
+    border: solid 1px grey;
+    margin: 100px;
+    padding: 10px;
+
+
+
+}
+
+.jk {
+    text-align: center;
+    font-size: 50px;
+
+    margin: auto;
+}
+
+.text1 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.text2 {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+
+.text3 {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.glavn:hover {
+    background-color: #FF8C00;
+}
+
+.onass {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    background-color: #FF8C00;
+    transition: 0.5s;
+
+}
+
+.cont {
+    color: white;
+    font-size: 30px;
+}
+
+.uslg {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    background-color: #FF8C00;
+    transition: 0.5s;
+}
+
+.card {
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+    width: 33%;
+    padding: 5px;
+    margin: 2.5px;
+
+}
+
+.tovar {
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.kupit {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 17%;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.card2 {
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+    width: 33%;
+    padding: 5px;
+    margin: 2.5px;
+
+}
+
+.nachalos {
+    border-radius: 10px;
+    border: solid 1px grey;
+    margin: 100px;
+    padding: 10px;
+
+}
+
+.nach {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.kupits {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 17%;
+    font-size: 30px;
+    font-family: monospace;
+    position: relative;
+    top: 15%
+}
+
+.card3 {
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+    width: 33%;
+    padding: 5px;
+    margin: 2.5px;
+
+}
+
+.kupitss {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 17%;
+    font-size: 30px;
+    font-family: monospace;
+    position: relative;
+    top: 5.5%
+}
+
+.fotos {
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    color: #FFE4E1;
+    font-size: 20px;
+    background-color: #FF8C00;
+    transition: 0.5s;
+}
+
+.con {
+    display: flex;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px
+}
+
+.card5 {
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 360px;
+    padding: 5px;
+    height: 250px;
+    margin: 2.5px;
+}
