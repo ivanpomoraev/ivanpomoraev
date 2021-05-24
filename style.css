@@ -90,6 +90,9 @@ body {
 }
 
 
+.vhod:hover {
+    background-color: darkgreen;
+}
 
 .fons {
     background-color: #7FFFD4;
@@ -358,4 +361,16 @@ footer {
     padding: 5px;
     height: 250px;
     margin: 2.5px;
+}
+
+.kupit:hover {
+    background-color: darkgreen;
+}
+
+.kupits:hover {
+    background-color: darkgreen;
+}
+
+.kupitss:hover {
+    background-color: darkgreen;
 }
