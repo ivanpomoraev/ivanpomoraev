@@ -374,3 +374,9 @@ footer {
 .kupitss:hover {
     background-color: darkgreen;
 }
+
+.os {
+    position: absolute;
+    right: 10px;
+    top: 10%;
+}
